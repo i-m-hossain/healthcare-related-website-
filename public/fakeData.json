@@ -1,0 +1,44 @@
+[
+    {
+        "id": 101,
+        "title": "Diagonstic",
+        "details": "We consider all the signs and symptoms of a patient to diagnose.",
+        "description": "Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/01-1-760x428.jpg"
+    },
+    {
+        "id": 102,
+        "name": "Therapeutics",
+        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/02-1-760x428.jpg",
+        "details": "We guarantee our patients the most effective treatment at the clinic.",
+        "description": "Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "id": 103,
+        "name": "Laboratory",
+        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/03-1-760x428.jpg",
+        "details": "For patients’ convenience, we run the lab right here at our facility.",
+        "description": "Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "id": 104,
+        "name": "Surgery",
+        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/04-1-500x500.jpg",
+        "details": "We guarantee our patients the most effective treatment at the clinic.",
+        "description": "Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "id": 105,
+        "name": "Cardiology",
+        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/05-1-500x500.jpg",
+        "details": "Animals can have cardiac issues, so we recommend timely checkups.",
+        "description": "Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "id": 106,
+        "name": "Physical Therapy",
+        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/06-1-500x500.jpg",
+        "details": "After certain traumas, your pets might need special care routine.",
+        "description": "Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+]
