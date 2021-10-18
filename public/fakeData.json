@@ -8,35 +8,35 @@
     },
     {
         "id": 102,
-        "name": "Therapeutics",
+        "title": "Therapeutics",
         "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/02-1-760x428.jpg",
         "details": "We guarantee our patients the most effective treatment at the clinic.",
         "description": "Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "id": 103,
-        "name": "Laboratory",
+        "title": "Laboratory",
         "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/03-1-760x428.jpg",
         "details": "For patients’ convenience, we run the lab right here at our facility.",
         "description": "Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "id": 104,
-        "name": "Surgery",
+        "title": "Surgery",
         "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/04-1-500x500.jpg",
         "details": "We guarantee our patients the most effective treatment at the clinic.",
         "description": "Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "id": 105,
-        "name": "Cardiology",
+        "title": "Cardiology",
         "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/05-1-500x500.jpg",
         "details": "Animals can have cardiac issues, so we recommend timely checkups.",
         "description": "Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "id": 106,
-        "name": "Physical Therapy",
+        "title": "Physical Therapy",
         "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/06-1-500x500.jpg",
         "details": "After certain traumas, your pets might need special care routine.",
         "description": "Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
