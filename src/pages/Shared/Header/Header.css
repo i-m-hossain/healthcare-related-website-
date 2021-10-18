@@ -1,0 +1,15 @@
+.link{
+    color: #000;
+    padding: 5 5px;
+    font-size: 16px;
+    
+
+}
+.link:hover{
+    color: #FF436B;
+    border-bottom: 2px solid #FF436B
+}
+.logout{
+    display: inline-block;
+    font-size: 35px;
+}
