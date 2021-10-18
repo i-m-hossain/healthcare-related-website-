@@ -7,12 +7,15 @@ import logo from '../../../images/logo.png'
 import { Link, NavLink } from 'react-router-dom';
 import './Header.css'
 import { HashLink } from 'react-router-hash-link';
+import useAuth from '../../../hooks/useAuth';
 
 const Header = () => {
+    const {user} = useAuth()
     const activeStyle = {
         color: "#FF436B",
         fontWeight: "bold"
     }
+
     return (
         <Container>
             <div className="d-none d-md-block">
@@ -49,7 +52,7 @@ const Header = () => {
                                 Login
                             </Nav.Link>
                             <Nav.Link >
-                                Signed in as: <span className="me-3 fw-bold text-danger">Mr x</span>
+                                Signed in as: <span className="me-3 fw-bold text-danger">{user?.displayName}</span>
                                 
                             </Nav.Link>
                             <Nav.Link className="position-relative">
