@@ -4,13 +4,16 @@ import { ImMobile } from "react-icons/im";
 import { GoLocation } from "react-icons/go"
 import { MdOutlineLogout } from "react-icons/md"
 import logo from '../../../images/logo.png'
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Header.css'
 import { HashLink } from 'react-router-hash-link';
 import useAuth from '../../../hooks/useAuth';
 
 const Header = () => {
-    const {user} = useAuth()
+    const {user, logOut} = useAuth()
+    const handleLogout = () =>{
+        logOut()
+    }
     const activeStyle = {
         color: "#FF436B",
         fontWeight: "bold"
@@ -48,16 +51,24 @@ const Header = () => {
                             <Nav.Link as={HashLink} to="/home#services" className="link">Services</Nav.Link>
                             <Nav.Link href="#pricing" className="link">About Us</Nav.Link>
                             <Nav.Link href="#deets" className="link">Contact Us</Nav.Link>
-                            <Nav.Link eventKey={2} as={Link} to="/login" className="link">
-                                Login
-                            </Nav.Link>
-                            <Nav.Link >
-                                Signed in as: <span className="me-3 fw-bold text-danger">{user?.displayName}</span>
-                                
-                            </Nav.Link>
-                            <Nav.Link className="position-relative">
-                                <MdOutlineLogout className="position-absolute top-0 logout" /> 
-                            </Nav.Link>
+                            
+                            {
+                                user.email ?
+                                <>
+                                        <Nav.Link >
+                                            Signed in as: <span className="me-3 fw-bold text-danger">{user?.displayName}</span>
+
+                                        </Nav.Link>
+                                        <Nav.Link className="position-relative" title="Logout" onClick={handleLogout}>
+                                            <MdOutlineLogout className="position-absolute top-0 logout" />
+                                        </Nav.Link>
+                                </>
+                                :
+
+                                    <Nav.Link eventKey={2} as={Link} to="/login" className="link" >
+                                        Login
+                                    </Nav.Link>
+                            }
                             
                         </Nav>
                         <Nav>
