@@ -47,9 +47,12 @@ const Header = () => {
                             <Nav.Link eventKey={2} href="#memes" className="link">
                                 Login
                             </Nav.Link>
-                            <Nav.Link className="position-relative">
+                            <Nav.Link >
                                 Signed in as: <span className="me-3 fw-bold text-danger">Mr x</span>
-                                <MdOutlineLogout className="position-absolute top-0 logout" />
+                                
+                            </Nav.Link>
+                            <Nav.Link className="position-relative">
+                                <MdOutlineLogout className="position-absolute top-0 logout" /> 
                             </Nav.Link>
                             
                         </Nav>
