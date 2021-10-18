@@ -4,13 +4,13 @@ import './WhyUs.css'
 
 const WhyUs = () => {
     return (
-        <div className="mt-5">
+        <div className="my-5">
             <Row className="why-bg" sm={1} md={2}>
                 <Col>
 
                 </Col>
-                <Col className="mt-5 p-5">
-                    <div className="p-5 bg-light">
+                <Col className="mt-5 p-5 ">
+                    <div className="p-5 bg-light border border-muted rounded">
                         <h2 className="text-danger fw-bold">People Trust Me</h2>
                         <h5>because i care about their pets</h5>
                         <div className="border border-muted w-25 my-3"></div>

@@ -5,6 +5,7 @@ import Home from './pages/Home/Home/Home';
 import Footer from './pages/Shared/Footer/Footer';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import ServiceDetails from './pages/ServiceDetails/ServiceDetails';
+import Login from './pages/Login/Login/Login';
 
 function App() {
   return (
@@ -15,11 +16,14 @@ function App() {
           <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route path="/home">
+          <Route  path="/home">
             <Home></Home>
           </Route>
           <Route path="/service/:serviceId">
             <ServiceDetails></ServiceDetails>
+          </Route>
+          <Route to="/login">
+            <Login></Login>
           </Route>
         </Switch>
         <Footer></Footer>

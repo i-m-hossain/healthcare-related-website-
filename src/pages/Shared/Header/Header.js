@@ -4,8 +4,9 @@ import { ImMobile } from "react-icons/im";
 import { GoLocation } from "react-icons/go"
 import { MdOutlineLogout } from "react-icons/md"
 import logo from '../../../images/logo.png'
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Header.css'
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     const activeStyle = {
@@ -40,11 +41,11 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mx-auto">
-                            <Nav.Link href="#features" className="link">Home</Nav.Link>
-                            <Nav.Link href="#features" className="link">Services</Nav.Link>
+                            <Nav.Link as={Link} to='/home' className="link">Home</Nav.Link>
+                            <Nav.Link as={HashLink} to="/home#services" className="link">Services</Nav.Link>
                             <Nav.Link href="#pricing" className="link">About Us</Nav.Link>
                             <Nav.Link href="#deets" className="link">Contact Us</Nav.Link>
-                            <Nav.Link eventKey={2} href="#memes" className="link">
+                            <Nav.Link eventKey={2} as={Link} to="/login" className="link">
                                 Login
                             </Nav.Link>
                             <Nav.Link >
