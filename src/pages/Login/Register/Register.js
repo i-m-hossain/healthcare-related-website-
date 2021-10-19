@@ -39,7 +39,7 @@ const Register = () => {
                     <input type="password" placeholder="Your password" {...register("password", { required: true })} className="mb-2 p-1" /> <br />
                     {errors.password && <span className="text-danger">Password is required <br /></span>}
 
-                    <input type="submit" className="btn btn-danger" value="Login" />
+                    <input type="submit" className="btn btn-danger" value="Register" />
                     <div className="mt-3">Already registered? <Link to="/login" className="text-secondary">Login</Link></div>
                 </form>
             </div>

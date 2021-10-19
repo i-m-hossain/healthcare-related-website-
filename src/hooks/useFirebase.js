@@ -25,6 +25,7 @@ const useFirebase = () => {
         createUserWithEmailAndPassword(auth, email, password)
         .then(result=>{
             setUser(result.user)
+            updateUser(name)
             console.log(result.user);
             setError('')
         })
@@ -32,7 +33,18 @@ const useFirebase = () => {
             setError(error.message)
         })
     }
-    
+    const updateUser = (name) =>{
+        updateProfile(auth.currentUser, {
+            displayName: name
+        })
+        .then(result=>{
+            console.log('profile updated');
+            setError('')
+        })
+        .catch(error =>{
+            setError(error.message)
+        })
+    }
     //observe the user 
     useEffect(() => {
         onAuthStateChanged(auth, (user) => {
