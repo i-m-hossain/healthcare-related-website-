@@ -4,19 +4,19 @@ import './Appointment.css'
 
 const Appointment = () => {
     return (
-        <div className="appointment-section" id="appointment">
+        <div className="appointment-section overflow-hidden mt-5" id="appointment">
             <Row className="appoinment" sm={1} md={2}>
                 <Col>
 
                 </Col>
-                <Col className="mt-5 p-5">
+                <Col className="p-5">
                     <div className="p-5 bg-light border border-muted rounded">
                         <h2 className="fw-bold">Appointment</h2>
                         <h5>Don’t waste your time, make it online</h5>
                         <div className="border border-muted w-25 my-3"></div>
                         <form>
                             <div className="w-100 d-flex justify-content-between">
-                                <input type="text" placeholder="Name" className="border border-muted p-2 w-25" />
+                                <input type="text" placeholder="Name" className="border border-muted p-2 w-25"/>
                                 <input type="text" placeholder="Email" className="border border-muted p-2 w-25" />
                                 <input type="text" placeholder="Phone" className="border border-muted w-25 p-2" />
                             </div>
