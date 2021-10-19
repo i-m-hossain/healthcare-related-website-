@@ -27,6 +27,7 @@ const useFirebase = () => {
                 setIsLoading(false)
             } else {
                 console.log('user is signed out');
+                setIsLoading(false)
             }
         })
         
