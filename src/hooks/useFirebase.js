@@ -22,16 +22,7 @@ const useFirebase = () => {
     }
     // sign in using email and password
     const createUserUsingEmail = (name, email, password)=>{
-        createUserWithEmailAndPassword(auth, email, password)
-        .then(result=>{
-            setUser(result.user)
-            updateUser(name)
-            console.log(result.user);
-            setError('')
-        })
-        .catch(error =>{
-            setError(error.message)
-        })
+        return createUserWithEmailAndPassword(auth, email, password)
     }
     const updateUser = (name) =>{
         updateProfile(auth.currentUser, {
@@ -77,6 +68,9 @@ const useFirebase = () => {
         signInUsingGoogle,
         error, 
         createUserUsingEmail,
+        setUser,
+        updateUser,
+        setError
 
     }
 }

@@ -8,7 +8,7 @@ import { AiOutlineGoogle } from 'react-icons/ai'
 const Register = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     // google login 
-    const { signInUsingGoogle, createUserUsingEmail, error } = useAuth()
+    const { signInUsingGoogle, createUserUsingEmail, error, setUser, updateUser, setError } = useAuth()
     const history = useHistory()
     const location = useLocation()
     const handleSignInWithGoogle = () => {
@@ -16,20 +16,32 @@ const Register = () => {
             .then(result => {
                 history.push(location?.state?.from)
             })
+
     }
 
     // login with email and password
     const onSubmit = data => {
-        createUserUsingEmail(data.name, data.email,data.password)
+        createUserUsingEmail(data.name, data.email, data.password)
+            .then(result => {
+                setUser(result.user)
+                updateUser(data.name)
+                console.log(result.user);
+                history.push('/home')
+                history.go(0)
+                setError('')
+            })
+            .catch(error => {
+                setError(error.message)
+            })
     };
-    
+
     return (
         <div>
             <h4 className="text-center fw-bold text-danger">Register</h4>
             <div className="d-flex justify-content-center">
 
                 <form onSubmit={handleSubmit(onSubmit)}>
-                    
+
                     <input placeholder="Your name" {...register("name", { required: true })} className="mb-2 p-1" /> <br />
                     {errors.name && <span className="text-danger">User name is required <br /></span>}
 
@@ -38,7 +50,8 @@ const Register = () => {
 
                     <input type="password" placeholder="Your password" {...register("password", { required: true })} className="mb-2 p-1" /> <br />
                     {errors.password && <span className="text-danger">Password is required <br /></span>}
-
+                    {error && <span className="text-danger">{error} <br /> <br /></span>}
+                    
                     <input type="submit" className="btn btn-danger" value="Register" />
                     <div className="mt-3">Already registered? <Link to="/login" className="text-secondary">Login</Link></div>
                 </form>
