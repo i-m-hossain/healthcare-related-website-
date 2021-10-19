@@ -4,40 +4,40 @@
         "title": "Diagonstic",
         "details": "We consider all the signs and symptoms of a patient to diagnose.",
         "description": "Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/01-1-760x428.jpg"
+        "image": "https://i.ibb.co/vc2Q6cm/01-1-760x428.jpg"
     },
     {
         "id": 102,
         "title": "Therapeutics",
-        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/02-1-760x428.jpg",
+        "image": "https://i.ibb.co/3fSpBwG/02-1-760x428.jpg",
         "details": "We guarantee our patients the most effective treatment at the clinic.",
         "description": "Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "id": 103,
         "title": "Laboratory",
-        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/03-1-760x428.jpg",
+        "image": "https://i.ibb.co/bL9DGRY/03-1-760x428.jpg",
         "details": "For patients’ convenience, we run the lab right here at our facility.",
         "description": "Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "id": 104,
         "title": "Surgery",
-        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/04-1-500x500.jpg",
+        "image": "https://i.ibb.co/MgtNFYy/04-1-500x500.jpg",
         "details": "We guarantee our patients the most effective treatment at the clinic.",
         "description": "Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "id": 105,
         "title": "Cardiology",
-        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/05-1-500x500.jpg",
+        "image": "https://i.ibb.co/tZ9YsLs/05-1-500x500.jpg",
         "details": "Animals can have cardiac issues, so we recommend timely checkups.",
         "description": "Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "id": 106,
         "title": "Physical Therapy",
-        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/06-1-500x500.jpg",
+        "image": "https://i.ibb.co/9HSTxBj/06-1-500x500.jpg",
         "details": "After certain traumas, your pets might need special care routine.",
         "description": "Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }

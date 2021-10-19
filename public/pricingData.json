@@ -8,7 +8,7 @@
             "Diagnosis & Prescription"
         ],
         "price": 150,
-        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/01-1-760x428.jpg"
+        "image": "https://i.ibb.co/vc2Q6cm/01-1-760x428.jpg"
     },
     {
         "id": 102,
@@ -19,7 +19,7 @@
             "Diagnosis & Prescription"
         ],
         "price": 220,
-        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/02-1-760x428.jpg"
+        "image": "https://i.ibb.co/3fSpBwG/02-1-760x428.jpg"
     },
     {
         "id": 103,
@@ -30,7 +30,7 @@
             "Diagnosis & Prescription"
         ],
         "price": 228,
-        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/03-1-760x428.jpg"
+        "image": "https://i.ibb.co/bL9DGRY/03-1-760x428.jpg"
     },
     {
         "id": 104,
@@ -41,7 +41,7 @@
             "Diagnosis & Prescription"
         ],
         "price": 160,
-        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/04-1-500x500.jpg"
+        "image": "https://i.ibb.co/MgtNFYy/04-1-500x500.jpg"
 
     },
     {
@@ -53,7 +53,7 @@
             "Diagnosis & Prescription"
         ],
         "price": 333,
-        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/05-1-500x500.jpg"
+        "image": "https://i.ibb.co/tZ9YsLs/05-1-500x500.jpg"
     },
     {
         "id": 106,
@@ -64,6 +64,6 @@
             "Diagnosis & Prescription"
         ],
         "price": 120,
-        "image": "http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2017/10/06-1-500x500.jpg"
+        "image": "https://i.ibb.co/9HSTxBj/06-1-500x500.jpg"
     }
 ]
