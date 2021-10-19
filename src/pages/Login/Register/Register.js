@@ -6,7 +6,7 @@ import useAuth from '../../../hooks/useAuth';
 import { AiOutlineGoogle } from 'react-icons/ai'
 
 const Register = () => {
-    const { register, handleSubmit, watch, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm();
     // google login 
     const { signInUsingGoogle, createUserUsingEmail, error, setUser, updateUser, setError } = useAuth()
     const history = useHistory()
@@ -16,7 +16,7 @@ const Register = () => {
             .then(result => {
                 history.push(location?.state?.from)
             })
-
+ 
     }
 
     // login with email and password

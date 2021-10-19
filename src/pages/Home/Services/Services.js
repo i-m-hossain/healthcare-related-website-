@@ -1,14 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import {  Container, Row } from 'react-bootstrap';
+import useServices from '../../../hooks/useServices';
 import Service from '../Service/Service';
 
 const Services = () => {
-    const [services, setServices] = useState([])
-    useEffect(()=>{
-        fetch('./fakeData.json')
-        .then(res => res.json())
-        .then(data => setServices(data))
-    }, []) 
+    const {services} = useServices()
+    console.log(services);
     return (
         <div className="text-center mt-5 pt-3" id="services">
             <h2>Welcome to My Clinic</h2>
@@ -17,7 +14,7 @@ const Services = () => {
             <Container className="py-4">
                 <Row xs={2} md={3} className="gy-5"> 
                     {
-                        services.map(service => <Service service={service}></Service>)
+                        services.map(service => <Service service={service} key={service.id}></Service>)
                     }
                    
                 </Row>

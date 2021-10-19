@@ -8,7 +8,7 @@ import useAuth from '../../../hooks/useAuth';
 const Login = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     //sign in using google
-    const { signInUsingGoogle, loginWithEmailAndPassword, setError } = useAuth()
+    const { signInUsingGoogle, loginWithEmailAndPassword, error, setError } = useAuth()
     const history = useHistory()
     const location = useLocation()
     const handleSignInWithGoogle = () => {
@@ -45,6 +45,7 @@ const Login = () => {
                     <input type="password" placeholder="Your password" {...register("password", { required: true })} className="mb-2 p-1" /> <br />
                     {/* errors will return when field validation fails  */}
                     {errors.exampleRequired && <span>This field is required</span>}
+                    {error && <span className="text-danger">{error} <br /> <br /></span>}
 
                     <input type="submit" className="btn btn-danger" value="Login" />
                     <p className="mt-3">Not Registered? <Link to="/register" className="text-secondary">Register</Link></p>

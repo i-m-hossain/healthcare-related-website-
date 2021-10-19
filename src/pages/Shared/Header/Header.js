@@ -14,11 +14,6 @@ const Header = () => {
     const handleLogout = () =>{
         logOut()
     }
-    const activeStyle = {
-        color: "#FF436B",
-        fontWeight: "bold"
-    }
-
     return (
         <Container>
             <div className="d-none d-md-block">
@@ -49,9 +44,9 @@ const Header = () => {
                         <Nav className="mx-auto">
                             <Nav.Link as={Link} to='/home' className="link">Home</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#services" className="link">Services</Nav.Link>
-                            <Nav.Link as={HashLink} to="/blog" className="link">Blog</Nav.Link>
+                            <Nav.Link as={HashLink} to="/pricing" className="link">Pricing</Nav.Link>
                             
-                            <Nav.Link as={Link} to="/contact-us" className="link">Contact Us</Nav.Link>
+                            <Nav.Link as={Link} to="/contact" className="link">Contact Us</Nav.Link>
                             
                             {
                                 user.email ?

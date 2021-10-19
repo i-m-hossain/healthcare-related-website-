@@ -4,7 +4,7 @@ import './Appointment.css'
 
 const Appointment = () => {
     return (
-        <div className="appointment-section">
+        <div className="appointment-section" id="appointment">
             <Row className="appoinment" sm={1} md={2}>
                 <Col>
 

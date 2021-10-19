@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, Row, Button, Container } from 'react-bootstrap';
+import { Card, Col, Row, Container } from 'react-bootstrap';
 import { IoIosFingerPrint } from 'react-icons/io'
 import { AiOutlineClockCircle } from 'react-icons/ai'
 import { BsJournalBookmark } from 'react-icons/bs'
@@ -63,7 +63,7 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-            <p className="text-white text-center mt-5"> Developed with <AiFillHeart className="text-danger"/> By Md Imran Hosain &copy; 2021</p>
+            <div className="text-white text-center mt-5"> Developed with <AiFillHeart className="text-danger"/> By Md Imran Hosain &copy; 2021</div>
         </div>
 
     );
