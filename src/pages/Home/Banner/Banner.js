@@ -11,7 +11,7 @@ const Banner = () => {
                     src="http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2018/05/slider-vet-01.jpg"
                     alt="First slide"
                 />
-                <Carousel.Caption className="slider-details">
+                <Carousel.Caption className="slider-details d-none d-lg-block">
                     <div className="p-3">
                         <h5 className="text-start">Animal Doctor</h5>
                         <p className="text-start">Professional care for your pets</p>
@@ -27,7 +27,7 @@ const Banner = () => {
                     src="http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2018/05/slider-vet-02.jpg"
                     alt="Second slide"
                 />
-                <Carousel.Caption className="slider-details">
+                <Carousel.Caption className="slider-details d-none d-lg-block">
                     <div className="p-3">
                         <h5 className="text-start">Animal Doctor</h5>
                         <p className="text-start">Professional care for your pets</p>
@@ -43,7 +43,7 @@ const Banner = () => {
                     src="http://patterson.dr-patterson-vet.themerex.net/wp-content/uploads/2018/05/slider-vet-03.jpg"
                     alt="Third slide"
                 />
-                <Carousel.Caption className="slider-details">
+                <Carousel.Caption className="slider-details d-none d-lg-block">
                     <div className="p-3">
                         <h5 className="text-start">Animal Doctor</h5>
                         <p className="text-start">Professional care for your pets</p>
