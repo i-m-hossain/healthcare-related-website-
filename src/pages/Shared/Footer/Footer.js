@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <div className="bg-dark p-5 mt-5">
             <Container >
-                <Row sm={1} md={3}>
+                <Row sm={1} md={3} className="g-3">
                     <Col>
                         <Card style={{ width: '18rem', height: "18rem" }}>
                             <Card.Title className="text-center pt-4">

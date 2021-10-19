@@ -41,9 +41,9 @@ const ContactUs = () => {
                 <Col className="p-5">
                     <div className="p-5 bg-light border border-muted rounded">
                         <form>
-                            <div className="w-100 d-flex justify-content-between">
-                                <input type="text" placeholder="Name" className="border border-muted p-2 w-50" />
-                                <input type="text" placeholder="Email" className="border border-muted p-2 w-50 ms-5" />
+                            <div className=" d-flex flex-column justify-content-center align-items-center">
+                                <input type="text" placeholder="Name" className="border border-muted p-2 w-100" />
+                                <input type="text" placeholder="Email" className="border border-muted p-2 w-100 mt-2" />
                             </div>
                             <textarea className="border border-muted w-100 d-inline-block mt-2 p-2" name="" placeholder="Message" id="" rows="5"></textarea>
                             <button className="btn-danger text-white mt-2 p-2 border-0 rounded">Submit your request</button>
