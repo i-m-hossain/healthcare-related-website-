@@ -2,11 +2,13 @@
     color: #000;
     padding: 5 5px;
     font-size: 16px;
+    margin-bottom: 5px;
 
 }
 .link:hover{
     color: #FF436B;
-    border-bottom: 2px solid #FF436B
+    border-bottom: 2px solid #FF436B;
+    margin-bottom: 0px;
 }
 .logout{
     display: inline-block;

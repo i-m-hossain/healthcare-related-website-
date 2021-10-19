@@ -41,8 +41,8 @@ const Header = () => {
                     </Col>
                 </Row>
             </div>
-            <Navbar collapseOnSelect expand="lg" bg="white" variant="light">
-                <Container>
+            <Navbar collapseOnSelect expand="lg" bg="white" variant="light" >
+                <Container className=" mb-4">
                     <Navbar.Brand href="#home" className="d-block d-md-none">Animal Doctor</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
