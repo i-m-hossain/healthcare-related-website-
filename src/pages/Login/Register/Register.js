@@ -7,7 +7,8 @@ import { AiOutlineGoogle } from 'react-icons/ai'
 
 const Register = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
-    const { signInUsingGoogle } = useAuth()
+    // google login 
+    const { signInUsingGoogle, createUserUsingEmail, error } = useAuth()
     const history = useHistory()
     const location = useLocation()
     const handleSignInWithGoogle = () => {
@@ -16,21 +17,27 @@ const Register = () => {
                 history.push(location?.state?.from)
             })
     }
-    const onSubmit = data => console.log(data);
+
+    // login with email and password
+    const onSubmit = data => {
+        createUserUsingEmail(data.name, data.email,data.password)
+    };
+    
     return (
         <div>
             <h4 className="text-center fw-bold text-danger">Register</h4>
             <div className="d-flex justify-content-center">
 
                 <form onSubmit={handleSubmit(onSubmit)}>
-                    {/* register your input into the hook by invoking the "register" function */}
+                    
                     <input placeholder="Your name" {...register("name", { required: true })} className="mb-2 p-1" /> <br />
-                    <input placeholder="Your email" {...register("email", { required: true })} className="mb-2 p-1" /> <br />
+                    {errors.name && <span className="text-danger">User name is required <br /></span>}
 
-                    {/* include validation with required or other standard HTML validation rules */}
-                    <input placeholder="Your password" {...register("password", { required: true })} className="mb-2 p-1" /> <br />
-                    {/* errors will return when field validation fails  */}
-                    {errors.exampleRequired && <span>This field is required</span>}
+                    <input type="email" placeholder="Your email" {...register("email", { required: true })} className="mb-2 p-1" /> <br />
+                    {errors.email && <span className="text-danger">Email is required <br /></span>}
+
+                    <input type="password" placeholder="Your password" {...register("password", { required: true })} className="mb-2 p-1" /> <br />
+                    {errors.password && <span className="text-danger">Password is required <br /></span>}
 
                     <input type="submit" className="btn btn-danger" value="Login" />
                     <div className="mt-3">Already registered? <Link to="/login" className="text-secondary">Login</Link></div>
